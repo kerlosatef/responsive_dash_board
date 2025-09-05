@@ -16,7 +16,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:  
+flutter:
+  uses-material-design: true
   assets:
     - assets/images/  
   fonts:
@@ -24,4 +25,4 @@ flutter:
       fonts:
         - asset: assets/fonts/Montserrat-Regular.ttf
         - asset: assets/fonts/Montserrat-Medium.ttf
-        
+          weight: 500
